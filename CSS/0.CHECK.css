@@ -1,0 +1,75 @@
+/* selektor elementu */
+html {
+}
+
+/* selektor id */
+#banner {
+}
+/* selektor klasy */
+.banner {
+}
+
+/* pseudo klasy */
+.banner:hover {
+}
+.banner:active {
+}
+
+div.gallery {
+}
+div#gallery {
+}
+.banner > p {
+    color: red;
+}
+:root {
+    --glowny-kolor-tla: brown;
+    background-color: var(--glowny-kolor-tla);
+}
+
+p,
+li,
+h1 {
+    color: red;
+}
+.div {
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: #00539f;
+    color: red;
+    border: 1px solid black;
+    background-image: url("url");
+    outline: #4caf50 solid 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: inline;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    overflow: visible;
+    float: left;
+    opacity: 0.5;
+}
+/* unvisited link */
+a:link {
+    color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff00ff;
+}
+
+/* selected link */
+a:active {
+    color: #0000ff;
+}
