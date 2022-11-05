@@ -1,4 +1,4 @@
-// OPERATORS (let, var, const)
+// OPERATORS
 
 // ***************
 // *** ZADANIA ***
